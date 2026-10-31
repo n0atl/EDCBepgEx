@@ -1,0 +1,1 @@
+Built-in image generation. Prompt: Blue program-guide grid with a cyan acquisition arrow; readable as a small Windows app icon; no text; transparent background.

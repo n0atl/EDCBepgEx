@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>EDCBepgEx</AssemblyName>
+    <Product>EDCBepgEx</Product>
+    <ApplicationIcon>../assets/EDCBepgEx.ico</ApplicationIcon>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../src/*.cs" />
+    <EmbeddedResource Include="../assets/EDCBepgEx.ico" LogicalName="EDCBepgEx.AppIcon" />
+    <PackageReference Include="System.Text.Json" Version="10.0.12" />
+  </ItemGroup>
+</Project>
